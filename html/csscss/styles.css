@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg");
+    background-attachment: fixed;
+}
+div.gallery {
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 180px;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+#tbl {
+    border: 1px solid
+}
+td:hover {
+    color: rgb(0, 0, 139);
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: orange;
+}
+a:hover {
+    color: magenta;
+}
+a:active {
+    color: lime;
+}
+#tir,
+#mis,
+#ots
+     {
+    border-collapse: collapse;
+    border-style: dotted;
+}
+#mis {
+    background-color: white;
+}
+#ots {
+    background-color: lightgray;
+}
+#tir:hover,
+#ots:hover,
+#mis:hover {
+    color: rgb(255, 213, 128)
+}
+div.gallery {
+    text-align:center; 
+    list-style-position: inside; 
+    margin-left: 250px; 
+    margin-right: 150px;
+}
+footer {
+    padding-top: 150px;
+}
+body {
+    font-family: Tahoma;
+}

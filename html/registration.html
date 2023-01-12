@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <title>
+        ISCP Employee Registration Form
+    </title>
+</head>
+
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="C:\Users\User\bootcamp\html\img\iscp.jpg" /><br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <form>
+        <h2>Basic information</h2>
+        <label for="firstName">First name </label><br />
+        <input type="text" placeholder="ex. John" id="firstName" /><br />
+        <label for="lastName">Last name </label><br />
+        <input type="text" placeholder="ex. Dela Cruz" id="lastName" /><br />
+        <label for="placeOfBirth">Place of birth</label><br />
+        <input type="text" placeholder="ex. Baguio City" id="placeOfBirth" /><br />
+        <label>Birthdate </label><br />
+        <input type="number" placeholder="ex. 21"><br />
+        <label >Civil status</label><br />
+        <select name="dropdown">
+            <option selected disabled>Select one</option>
+            <option value="single">single</option>
+            <option value="married">married</option>
+            <option value="widowed">widowed</option>
+            <option value="separated">separated</option>
+        </select><br />
+        <label>Gender</label><br />
+        <select name="dropdown">
+            <option selected disabled>Select one</option>
+            <option value="single">male</option>
+            <option value="married">female</option>
+            <option value="married">other</option>
+        </select><br />
+        <label for="mother'sMaidenName"> Mother's maiden name</label>
+        <input type="text" placeholder="ex. Corazon" id="mother'sMaidenName" />
+        <label for="father'sName"> Father's name</label>
+        <input type="text" placeholder="ex. Erik" id="father'sName" />
+    </form>
+    <form>
+        <h2>Contact information</h2>
+        <label>Email: </label><br />
+        <input type="email" placeholder="ex. johnmark@email.com"><br />
+        <label for="contactNumber(Mobile)"> Contact number(mobile) </label><br />
+        <input type="text" placeholder="ex. 09123456789" id="contactNumber(Mobile)" /><br />
+        <label for="contactNumber(Telephone)"> Contact number(telephone) </label><br />
+        <input type="text" placeholder="ex. 1234-5678" id="contactNumber(Telephone)" /><br />
+        <h4>Address</h4>
+        <label for="streetNumber"> Street number</label><br />
+        <input type="text" placeholder="block 12 lot 41" id="streetNumber" /><br />
+        <label for="streetName"> Street name</label><br />
+        <input type="text" placeholder="Ligaya street" id="streetName" /><br />
+        <label for="barangay"> Barangay</label><br />
+        <input type="text" placeholder="barangay dimatibag" id="barangay" /><br />
+        <label for="city/Town"> City/Town</label><br />
+        <input type="text" placeholder="Baguio City" id="city/Town" /><br />
+        <label for="province"> Province</label><br />
+        <input type="text" placeholder=" Benguet" id="province" /><br />
+        <label for="fullAddress"> Full Address</label><br />
+        <input type="text" placeholder="block 12 lot 41 ligaya street baguio city" id="fullAddress" /><br />
+    </form>
+    <form>
+        <h2>Government information</h2>
+        <label for="sssId"> SSS ID</label><br />
+        <input type="text" placeholder="0021-1412145-5" id="sssId" /><br />
+        <label for="pag-IbigId"> Pag-Ibig ID</label><br />
+        <input type="text" placeholder="1234-5678-9101" id="pag-IbigId" /><br />
+        <label for="philhealthId"> PhilHealth ID</label><br />
+        <input type="text" placeholder="02-12123456789-2" id="philhealthId" /><br />
+        <label>Upload 2x2 picture</label>
+        <input type="file" name="fileupload" accept="image/*" />
+        <label>Upload picture of government ID </label>
+        <input type="file" name="fileupload" accept="image/*" />
+    </form>
+    <form>
+        <h2>Account information</h2>
+        <label for="username"> Username</label><br />
+        <input type="text" placeholder="ex. john123" id="username" /><br />
+        <label>Password </label><br />
+        <input type="password" placeholder="atleast 1 uppercase, atleast 1 number" /><br />
+        <label>Confirm password </label><br />
+        <input type="password" placeholder="atleast 1 uppercase, atleast 1 number" /><br />
+        <label>Upload profile image </label>
+        <input type="file" name="fileupload" accept="image/*" />
+    </form>
+    <form>
+        <h2>Have you experienced any of the following in the last 30 days?</h2>
+        <input type="checkbox" value="Coughing">Coughing</input>
+        <input type="checkbox" value="Fever">Fever</input>
+        <input type="checkbox" value="Headache">Headache</input>
+        <input type="checkbox" value="Common cold">Common cold</input>
+        <input type="checkbox" value="Body ache">Body ache</input>
+        <input type="checkbox" value="Sore throat">Sote throat</input>
+        <input type="checkbox" value="Tiredness">Tiredness</input>
+        <input type="checkbox" value="Loss of smell">Loss of smell</input>
+    </form>
+    <form>
+        <h2>Give a short description about yourself</h2>
+        <input type="text" placeholder="anything about yourself" />
+</body>
+</html>

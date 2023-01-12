@@ -1,0 +1,15 @@
+h1 {
+  color: blue;
+}
+
+div h1 {
+  color: orangered;
+}
+
+p {
+  color: blue;
+}
+
+.food {
+  width: 400px;
+}

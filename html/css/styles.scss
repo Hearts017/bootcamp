@@ -1,0 +1,24 @@
+@import "../node_modules/bootstrap/";
+
+$themeColor1: blue;
+$themeColor2: pink;
+$widthFood: 400px;
+
+h1 {
+    color: $themeColor1;
+}
+
+div {
+    h1 {
+       color: orangered 
+    }
+}
+
+p {
+    color: $themeColor1;
+}
+
+.food {
+    width: $widthFood
+}
+
